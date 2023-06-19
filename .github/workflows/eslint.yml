@@ -1,7 +1,7 @@
 name: ESLint Check
 
 on:
-  push:
+  pull_request:
     branches:
       - main # Modify this if your main branch has a different name
 
